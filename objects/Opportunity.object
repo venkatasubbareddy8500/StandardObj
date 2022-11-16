@@ -106,6 +106,28 @@ IF(Contribution_Percentage__c &gt;0.40,&quot;High&quot;,NULL)
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>MainCompetitors1__c</fullName>
+        <externalId>false</externalId>
+        <label>Main Competitor1(s)</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MainCompetitors2__c</fullName>
+        <externalId>false</externalId>
+        <label>Main Competito2r(s)</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Radius__c</fullName>
         <defaultValue>0</defaultValue>
         <externalId>false</externalId>
